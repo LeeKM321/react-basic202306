@@ -1,7 +1,6 @@
-import { Fragment } from 'react';
 import './App.css';
-import Hello from './Hello';
 import SayHello from './SayHello';
+import SubmitEvent from './component/chap01_event/SubmitEvent';
 
 
 //리액트에서는 하나의 컴포넌트가 여러개의 엘리먼트를 반환할 수 있습니다.
@@ -21,7 +20,7 @@ function App() {
   //{} 안에서 함수의 호출문이나 변수참조는 가능.
   return (
     <>
-      { looping() }
+      <SubmitEvent />
     </>
   );
 }
